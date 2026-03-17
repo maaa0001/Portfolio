@@ -13,7 +13,8 @@ img {
 /*************** Fonte *********************/
 @font-face {
   font-family: "margin_demoregular";
-  src: url("fonts/margindemo-7b6ze-webfont.woff2") format("woff2"),
+  src:
+    url("fonts/margindemo-7b6ze-webfont.woff2") format("woff2"),
     url("fonts/margindemo-7b6ze-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -49,6 +50,18 @@ nav a {
 }
 
 /*************** Generetlt *********************/
+.wave1 {
+  width: 100%;
+  /* margin-left: -16px; */
+  /* margin-bottom: -109px; */
+}
+
+/* .wave2 {
+  width: 102%;
+  margin-left: -16px;
+  margin-top: -109px;
+} */
+
 .krop {
   max-width: 1000px;
   margin-inline: auto;
@@ -86,7 +99,6 @@ h3:hover {
 p {
   font-family: Roboto;
   font-size: 1.1rem;
-
   margin: 0 50px 0 50px;
   padding: 0 0 22px 0;
 }
@@ -152,6 +164,7 @@ a:hover {
 }
 
 .grid_1-1-1-1 {
+  margin: 0 20px;
   display: grid;
   gap: 20px;
 }
@@ -358,7 +371,8 @@ footer p {
     border-top: 3px solid #22b573;
   }
 }
-.container2 p {
+.container2 p,
+ul {
   font-family: "Indie Flower", cursive;
   font-size: 2rem;
   font-weight: 500;
@@ -403,4 +417,8 @@ footer p {
 
 .projekt {
   color: #f20000;
+}
+
+.green {
+  color: #22b573;
 }
