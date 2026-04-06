@@ -78,6 +78,7 @@ h3 {
 h1 {
   font-size: 6rem;
   text-align: center;
+  margin: 30px 0;
 }
 
 h2 {
@@ -334,7 +335,7 @@ footer p {
 @media (min-width: 800px) {
   #intro {
     max-width: 532px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
   }
   .container2 {
     display: grid;
