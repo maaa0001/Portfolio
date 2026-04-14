@@ -140,6 +140,11 @@ a:hover {
     scale: 1.1;
   }
 }
+
+#om_mig {
+  margin-top: 30px;
+}
+
 #blobs {
   margin-top: 30px;
 }
@@ -240,6 +245,8 @@ footer p {
   max-width: 450px;
   margin: 0 auto 0 auto;
   display: flex;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .container img {
